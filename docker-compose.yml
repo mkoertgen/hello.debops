@@ -2,3 +2,5 @@ version: '3'
 services:
   debops:
     image: debops/debops
+    volumes:
+      - "./src/projects/:/home/ansible/src/projects/"
